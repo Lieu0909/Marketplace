@@ -1,0 +1,32 @@
+<!--<app-header></app-header>-->
+<!--<div class="content-container">-->
+<!--  <div class="path">-->
+<!--    <h1>Home / Preview </h1>-->
+<!--  </div>-->
+<!--  <div class="scrollable-content">-->
+<!--    <div style="margin:50px">-->
+<!--      <router-outlet></router-outlet>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!--<app-footer></app-footer>-->
+
+<!--&lt;!&ndash;<div style="height: 2000px; background: lightgrey;">&ndash;&gt;-->
+<!--&lt;!&ndash;    Test Content: This should create enough height to enable scrolling.&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<app-header></app-header>
+<div class="content-container">
+  <div class="path">
+    <h1>Home / Preview</h1>
+  </div>
+
+  <!-- Wrap the router-outlet in a div with class for spacing -->
+  <div class="scrollable-content">
+    <div class="router-outlet-wrapper">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

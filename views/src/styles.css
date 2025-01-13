@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* styles.css */
+/*#e5d0cd*/
+:root {
+  --primary-container-bg-color: #f1e7e3; /* Example primary color */
+  --primary-container-font-size:35px;
+  --primary-container-font-color:#3d4035;
+  --primary-container-font-family: 'forte', sans-serif; /* Set global font family */
+  --secondary-container-bg-color: #e5d0cd;
+  --secondary-hover-color: #ff6347;
+  --tertiary-container-font-color:#bc958f;
+  --secondary-container-font-family: 'Arial Narrow', sans-serif;
+  --secondary-container-font-size:20px;
+  --header-height:80px;
+  --footer-height:60px;
+}

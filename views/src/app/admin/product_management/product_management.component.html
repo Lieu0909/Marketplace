@@ -1,0 +1,82 @@
+<div class="container">
+  <!-- Left Side: Table List -->
+  <div class="table-container">
+    <h2>Measurement List</h2>
+    <table>
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>Description</th>
+        <th>Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1</td>
+        <td>Length</td>
+        <td><button>Edit</button></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Width</td>
+        <td><button>Edit</button></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Height</td>
+        <td><button>Edit</button></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Right Side: Form Section -->
+  <div class="form-container">
+    <h2>Upload Form</h2>
+    <form action="#" method="POST" enctype="multipart/form-data">
+      <!-- Image Upload -->
+      <div class="form-section">
+        <label for="image-upload">Upload Image:</label>
+        <input type="file" id="image-upload" name="image" accept="image/*" required>
+      </div>
+
+      <!-- Description Input -->
+      <div class="form-section">
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" placeholder="Enter a description..." required></textarea>
+      </div>
+
+      <!-- Measurement Table (Dynamic) -->
+      <div class="form-section">
+        <table id="measurement-table">
+          <thead>
+          <tr>
+            <th>Measurement Type</th>
+            <th>Value</th>
+            <th>Unit</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td><input type="text" name="measurement_type[]" placeholder="e.g., Length" required></td>
+            <td><input type="number" name="measurement_value[]" placeholder="Value" required></td>
+            <td><input type="text" name="measurement_unit[]" placeholder="Unit" required></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="measurement_type[]" placeholder="e.g., Width" required></td>
+            <td><input type="number" name="measurement_value[]" placeholder="Value" required></td>
+            <td><input type="text" name="measurement_unit[]" placeholder="Unit" required></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="measurement_type[]" placeholder="e.g., Height" required></td>
+            <td><input type="number" name="measurement_value[]" placeholder="Value" required></td>
+            <td><input type="text" name="measurement_unit[]" placeholder="Unit" required></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+/* Add some basic styling for the layout */
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+router-outlet {
+  flex: 1; /* Ensures dynamic content takes up available space */
+  padding-top: 10px;
+}
+/* Basic Styling for Content */
+.content-container {
+  padding: 20px 40px 30px;
+}
+
+.path h1 {
+  color: var(--primary-container-font-color);
+  font-family: var(--secondary-container-font-family);
+  font-weight: bold;
+  font-size:var(--secondary-container-font-size);
+  padding:10px;
+}
+
+.scrollable-content {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.router-outlet-wrapper {
+  margin-top: 10px; /* Space between path and dynamic content */
+}

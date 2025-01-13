@@ -1,0 +1,50 @@
+<header class="header-container">
+  <!-- Left Div: Search Bar and Drop-down List -->
+  <div class="header-wrapper">
+    <div class="left-div">
+      <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search Books...">
+      </div>
+      <div class="dropdown-container">
+        <select class="dropdown-list">
+          <option value="category1">SGD</option>
+          <option value="category2">MYR</option>
+          <option value="category3">CNY</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Middle Div: Store Name (Centered) -->
+    <div class="middle-div">
+      <h1 class="primary-text ">Dejavu</h1>
+    </div>
+
+    <!-- Right Div: Icons (Clickable) -->
+    <div class="right-div">
+      <a href="/home" class="icon-link">
+        <mat-icon>home</mat-icon>  <!-- Dashboard Icon -->
+      </a>
+      <a routerLink="/admin_product_management" class="icon-link">
+        <mat-icon>event_note</mat-icon>  <!-- Notification Icon -->
+      </a>
+      <a routerLink="/login" class="icon-link">
+        <mat-icon>account_circle</mat-icon>  <!-- Login Icon -->
+      </a>
+      <a href="/cart" class="icon-link">
+        <mat-icon>more_horiz</mat-icon>  <!-- More Icon -->
+      </a>
+    </div>
+  </div>
+  <div class="category-wrapper">
+    <nav>
+      <ul>
+        <li><a href="#">Rounded</a></li>
+        <li><a href="#">Square</a></li>
+        <li><a href="#">Oval</a></li>
+        <li><a href="#">Pointed</a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>

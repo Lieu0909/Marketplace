@@ -1,0 +1,63 @@
+.login-container {
+   position: relative; /* Change fixed to relative for better control */
+    width: 200px; /* Set a specific width for the container */
+    height: 650px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    border: 1px solid var(--primary-container-bg-color);
+    color: var(--primary-container-font-color);
+    border-radius: 8px;
+    width:500px;
+    box-shadow: 0 4px 8px var(--primary-container-bg-color);
+    font-family: var(--secondary-container-font-family);
+    margin-top: 5px; /* Adds space from the top */
+    display: block; /* Ensure all content inside the container is shown */
+    transform: translate(-50%, 0%);
+    left: 50%;
+}
+
+.h1, .h2 {
+  text-align: left;
+}
+
+.input {
+  padding: 10px;
+  width: 400px;
+  border: 1px solid var(--primary-container-bg-color);
+  border-radius: 20px;
+  font-size: var(--secondary-container-font-size);
+  margin-bottom: 10px; /* Adds some space below inputs */
+  padding:20px;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center; /* Ensures input fields and button are centered */
+  margin-bottom: 15px; /* Adds space between user-container sections */
+}
+
+.loginbtn {
+    width: 50%;
+    padding: 15px;
+    font-size: var(--secondary-container-font-size);
+    border: 1px solid var(--primary-container-bg-color);
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: var(--secondary-container-bg-color);
+    cursor: pointer;
+    text-align: center; /* Centers button text */
+}
+
+.link {
+  color: var(--tertiary-container-font-color);
+  display: block;
+  text-align: center; /* Centers the links */
+  margin-top: 10px; /* Adds space between the links */
+}
+
+.link:hover {
+  text-decoration: underline; /* Optional: adds underline on hover */
+}
