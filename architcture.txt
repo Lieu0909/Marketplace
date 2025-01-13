@@ -1,0 +1,38 @@
+src> App> Promotion > promotion.css,promotion.html, promotion.ts
+src> App> app.config.server.ts, app.config.ts,app.routes.server.ts, app.routes.ts
+src> index.html,main.server.ts, main.ts, server.ts
+
+The thing above is architecture of my coding file
+This is my index.html
+how to import mat-icon in index.html? 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Views</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="mat-typography">
+  <div class="bg-image"></div>
+    <promotion></promotion>
+
+    <div class="wrapper sticky">
+      <nav class="navbar-fixed-top">
+        <a href="#" class="logo">
+          <mat-icon>storefront</mat-icon> Nail Palaces
+        </a>
+        <ul>
+        </ul>
+      </nav>
+  </div>
+  <div class="footer" id="signup">
+    <h2>All right reserved @BTech Days</h2>
+  </div>
+</body>
+
+
+</html>
