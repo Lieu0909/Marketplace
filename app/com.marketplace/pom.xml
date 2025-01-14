@@ -11,7 +11,7 @@
 	<groupId>com.marketplace</groupId>
 	<artifactId>com.marketplace</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Marketplace Project</name>
+	<name>marketplace-project</name>
 	<description>Marketplace project for Spring Boot</description>
 	<url/>
 	<licenses>
